@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd_all">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".StoresFragment">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="337dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="37dp"
+        android:text="@string/store"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageButton
+        android:id="@+id/canvasprint"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/canvasprint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        android:contentDescription="@string/todof" />
+
+    <ImageButton
+        android:id="@+id/Photoframes"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/photoframes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvasprint"
+        android:contentDescription="@string/todoe" />
+
+    <ImageButton
+        android:id="@+id/Lighting"
+        android:layout_width="405dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/lighting"
+        app:layout_constraintTop_toBottomOf="@+id/Photoframes"
+        tools:layout_editor_absoluteX="3dp"
+        android:contentDescription="@string/todod" />
+
+    <ImageButton
+        android:id="@+id/WallArtStore"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="630dp"
+        android:src="@drawable/wallartshop"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="508dp"
+        android:contentDescription="@string/todoc" />
+
+    <ImageButton
+        android:id="@+id/PlantsStore"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/plant"
+        android:contentDescription="@string/todob" />
+
+    <ImageButton
+        android:id="@+id/PaintsStores"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="770dp"
+        android:src="@drawable/paintstore"
+        android:contentDescription="@string/todoa" />
+
+
+</RelativeLayout>
+</ScrollView>

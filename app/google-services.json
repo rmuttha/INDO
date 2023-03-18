@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1023207120454",
+    "project_id": "indo-69677",
+    "storage_bucket": "indo-69677.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023207120454:android:a790937544c2584ec2b447",
+        "android_client_info": {
+          "package_name": "com.example.indo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023207120454-pjp12fuoq41j7v8ipoqbcskmlplp3qui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGSGjJADM2kBmEfmzC7_tYqUSKzL_sZ5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023207120454-pjp12fuoq41j7v8ipoqbcskmlplp3qui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

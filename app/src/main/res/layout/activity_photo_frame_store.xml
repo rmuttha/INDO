@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Grey"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:context=".PhotoFrameStore">
+
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/photo_frames"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/F1"
+            android:layout_width="149dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:srcCompat="@drawable/f1" />
+
+        <TextView
+            android:id="@+id/textViewF1"
+            android:layout_width="160dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/gallery_perfect_9_piece_black_square_photo_frame_nprice_63_07"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/F1"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <ImageButton
+            android:id="@+id/F2"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f2"
+            app:layout_constraintStart_toStartOf="@+id/F1"
+            app:layout_constraintTop_toBottomOf="@+id/F1" />
+
+        <TextView
+            android:id="@+id/textViewF2"
+            android:layout_width="162dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="4dp"
+            android:text="@string/wall_hanging_with_4_opening_white_frames_nprice_14_39"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toEndOf="@+id/F1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF1" />
+
+        <ImageButton
+            android:id="@+id/F3"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f3"
+            app:layout_constraintStart_toStartOf="@+id/F2"
+            app:layout_constraintTop_toBottomOf="@+id/F2" />
+
+        <TextView
+            android:id="@+id/textViewF3"
+            android:layout_width="162dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/bikoney_picture_frames_collage_photo_hanging_nprice_16_99"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewF2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/F3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF2" />
+
+        <ImageButton
+            android:id="@+id/F4"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f4"
+            app:layout_constraintStart_toStartOf="@+id/F3"
+            app:layout_constraintTop_toBottomOf="@+id/F3" />
+
+        <TextView
+            android:id="@+id/textViewF4"
+            android:layout_width="162dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/umbra_exhibit_picture_frame_adjustable_collage_nprice_56_39"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewF3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/F3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF3" />
+
+        <ImageButton
+            android:id="@+id/F5"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f5"
+            app:layout_constraintStart_toStartOf="@+id/F4"
+            app:layout_constraintTop_toBottomOf="@+id/F4" />
+
+        <TextView
+            android:id="@+id/textViewF5"
+            android:layout_width="165dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/_9_openings_handcrafted_wood_wall_hanging_frame_nprice_36_99"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewF4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/F4"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF4" />
+
+        <ImageButton
+            android:id="@+id/F6"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f6"
+            app:layout_constraintStart_toStartOf="@+id/F5"
+            app:layout_constraintTop_toBottomOf="@+id/F5" />
+
+        <TextView
+            android:id="@+id/textViewF6"
+            android:layout_width="162dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/round_wooden_hanging_display_frames_nprice_22_49"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewF5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/F5"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF5" />
+
+        <ImageButton
+            android:id="@+id/F7"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f7"
+            app:layout_constraintStart_toStartOf="@+id/F6"
+            app:layout_constraintTop_toBottomOf="@+id/F6" />
+
+        <TextView
+            android:id="@+id/textViewF7"
+            android:layout_width="162dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/family_tree_metal_multi_frames_round_circle_hanging_nprice_39_99"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewF6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/F6"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF6" />
+
+        <ImageButton
+            android:id="@+id/F8"
+            android:layout_width="156dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/todog"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f8"
+            app:layout_constraintStart_toStartOf="@+id/F7"
+            app:layout_constraintTop_toBottomOf="@+id/F7" />
+
+        <TextView
+            android:id="@+id/textViewF8"
+            android:layout_width="162dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/_6_wooden_wall_hanging_frames_with_27_clips_nprice_19_99"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewF7"
+            app:layout_constraintStart_toEndOf="@+id/F8"
+            app:layout_constraintTop_toBottomOf="@+id/textViewF7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

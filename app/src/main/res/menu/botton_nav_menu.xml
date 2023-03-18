@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/home"/>
+    <item android:title="@string/diy"
+        android:icon="@drawable/baseline_brush_24"
+        android:id="@+id/diy"/>
+    <item android:title="@string/stores"
+        android:icon="@drawable/baseline_store_24"
+        android:id="@+id/stores"/>
+    <item android:title="@string/save"
+        android:icon="@drawable/baseline_save_24"
+        android:id="@+id/save"/>
+    <item android:title="@string/settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/settings"/>
+</menu>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Grey"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".CanvasPrintStore">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/canvas_paintings"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/C1"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/c1" />
+
+    <TextView
+        android:id="@+id/textViewC1"
+        android:layout_width="160dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/guardian_of_the_sea_wall_art_nnicky_boehme_nprice_79_99"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/C1"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageButton
+        android:id="@+id/C2"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c2"
+        app:layout_constraintStart_toStartOf="@+id/C1"
+        app:layout_constraintTop_toBottomOf="@+id/C1" />
+
+    <TextView
+        android:id="@+id/textViewC2"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/custom_portrait_painting_nmagicbrushdesign_nprice_59_95"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/C1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC1" />
+
+    <ImageButton
+        android:id="@+id/C3"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c3"
+        app:layout_constraintStart_toStartOf="@+id/C2"
+        app:layout_constraintTop_toBottomOf="@+id/C2" />
+
+    <TextView
+        android:id="@+id/textViewC3"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/cortesi_home_forgiveness_nmario_sanchez_nprice_190"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewC2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/C3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC2" />
+
+    <ImageButton
+        android:id="@+id/C4"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c4"
+        app:layout_constraintStart_toStartOf="@+id/C3"
+        app:layout_constraintTop_toBottomOf="@+id/C3" />
+
+    <TextView
+        android:id="@+id/textViewC4"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/wieco_art_almond_blossom_floral_nvan_gogh_nprice_13_59"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewC3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/C3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC3" />
+
+    <ImageButton
+        android:id="@+id/C5"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c5"
+        app:layout_constraintStart_toStartOf="@+id/C4"
+        app:layout_constraintTop_toBottomOf="@+id/C4" />
+
+    <TextView
+        android:id="@+id/textViewC5"
+        android:layout_width="165dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/rustic_black_stallion_nethan_harper_nprice_79_99"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewC4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/C4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC4" />
+
+    <ImageButton
+        android:id="@+id/C6"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c6"
+        app:layout_constraintStart_toStartOf="@+id/C5"
+        app:layout_constraintTop_toBottomOf="@+id/C5" />
+
+    <TextView
+        android:id="@+id/textViewC6"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/animal_wolf_wall_pictures_blue_sky_nprice_48_99"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewC5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/C5"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC5" />
+
+    <ImageButton
+        android:id="@+id/C7"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c7"
+        app:layout_constraintStart_toStartOf="@+id/C6"
+        app:layout_constraintTop_toBottomOf="@+id/C6" />
+
+    <TextView
+        android:id="@+id/textViewC7"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/yellow_sunflower_artwork_still_life_canvas_art_prints_nprice_23_98"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewC6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/C6"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC6" />
+
+    <ImageButton
+        android:id="@+id/C8"
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/todog"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c8"
+        app:layout_constraintStart_toStartOf="@+id/C7"
+        app:layout_constraintTop_toBottomOf="@+id/C7" />
+
+    <TextView
+        android:id="@+id/textViewC8"
+        android:layout_width="162dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/natvva_wall_art_callahan_sales_pitch_movie_poster_nprice_29_99"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textViewC7"
+        app:layout_constraintStart_toEndOf="@+id/C8"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

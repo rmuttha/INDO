@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd_all"
+    tools:context=".DiyFragment">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/do_it_yourself"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/canvas_painting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/canvas_painting"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/canvas_painting"
+        app:layout_constraintBottom_toTopOf="@+id/wall_art"
+        app:layout_constraintEnd_toStartOf="@+id/plant_wall_art"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:contentDescription="@string/todo1" />
+
+    <ImageButton
+        android:id="@+id/plant_wall_art"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="22dp"
+        android:src="@drawable/plant_wall_art"
+        app:layout_constraintBottom_toBottomOf="@+id/canvas_painting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/canvas_painting"
+        app:layout_constraintTop_toTopOf="@+id/canvas_painting"
+        android:contentDescription="@string/todo2" />
+
+    <ImageButton
+        android:id="@+id/wall_art"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/wall_art"
+        app:layout_constraintBottom_toTopOf="@+id/waste_to_best"
+        app:layout_constraintEnd_toStartOf="@+id/wall_hanging"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas_painting"
+        android:contentDescription="@string/todo3" />
+
+    <ImageButton
+        android:id="@+id/wall_hanging"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="22dp"
+        android:src="@drawable/wall_hanging"
+        app:layout_constraintBottom_toBottomOf="@+id/wall_art"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wall_art"
+        app:layout_constraintTop_toTopOf="@+id/wall_art"
+        android:contentDescription="@string/todo4" />
+
+    <ImageButton
+        android:id="@+id/wall_photos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="2dp"
+        android:src="@drawable/wall_photos_art"
+        app:layout_constraintBottom_toBottomOf="@+id/waste_to_best"
+        app:layout_constraintEnd_toStartOf="@+id/waste_to_best"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wall_art"
+        android:contentDescription="@string/todo6" />
+
+    <ImageButton
+        android:id="@+id/waste_to_best"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/waste_to_best"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wall_photos"
+        app:layout_constraintTop_toBottomOf="@+id/wall_art"
+        android:contentDescription="@string/todo5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

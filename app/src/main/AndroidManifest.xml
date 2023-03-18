@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.INDO"
+        tools:targetApi="31">
+        <activity
+            android:name=".PaintsStore"
+            android:exported="false" />
+        <activity
+            android:name=".PlantsStore"
+            android:exported="false" />
+        <activity
+            android:name=".WallArtStores"
+            android:exported="false" />
+        <activity
+            android:name=".LightingStore"
+            android:exported="false" />
+        <activity
+            android:name=".PhotoFrameStore"
+            android:exported="false" />
+        <activity
+            android:name=".CanvasPrintStore"
+            android:exported="false" />
+        <activity
+            android:name=".WasteToBest"
+            android:exported="false" />
+        <activity
+            android:name=".PhotosArt"
+            android:exported="false" />
+        <activity
+            android:name=".PlantWallArt"
+            android:exported="false" />
+        <activity
+            android:name=".WallHanging"
+            android:exported="false" />
+        <activity
+            android:name=".WallArt"
+            android:exported="false" />
+        <activity
+            android:name=".CanvasPainting"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".Navigation" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
